@@ -15,6 +15,7 @@
   background-color: #121212;
   flex: 1;
   border-radius: 1rem;
+  overflow: auto;
 }
 .sidebar {
   background-color: black;
@@ -137,7 +138,7 @@ a {
   height: 1.5rem;
   width: 1.5rem;
   opacity: 0.7;
-  transition: 0.4s;
+  transition: 0.1s;
 }
 .player .controls img:hover {
   height: 1.8rem;
@@ -147,4 +148,67 @@ a {
 .line {
   font-weight: bold;
   color: white;
+}
+.recently-played {
+  margin: 1rem;
+  padding: 1rem;
+}
+.recently-played .card {
+  background-color: #333333;
+}
+.card {
+  width: 11rem;
+  height: 16rem;
+  margin-top: 0.3rem;
+  border-radius: 0.4rem;
+}
+.card .bold-text {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.card .text {
+  text-align: center;
+}
+.card img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+}
+.trending {
+  margin-top: 2.5rem;
+  margin-bottom: 10rem;
+  padding-left: 2rem;
+}
+.trending .card {
+  background-color: #333333;
+}
+.card {
+  width: 11rem;
+  height: 16rem;
+  margin-top: 0.3rem;
+  border-radius: 0.4rem;
+}
+.card .bold-text {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.card .text {
+  text-align: center;
+}
+.card img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: contain;
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.4rem;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
